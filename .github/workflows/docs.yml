@@ -21,6 +21,8 @@ jobs:
         with:
           command: doc
           args: --no-deps
+      - name: Stick a CNAME in there
+        run: echo renee.kooi.me > target/doc/CNAME
       - name: Publish site
         if: success()
         uses: crazy-max/ghaction-github-pages@v1
