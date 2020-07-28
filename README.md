@@ -10,6 +10,9 @@ From git:
 yolofd = { git = "https://github.com/goto-bus-stop/yolofd.git" }
 ```
 
+## Docs
+[On GitHub Pages](https://goto-bus-stop.github.io/yolofd)
+
 ## License
 [MIT](./LICENSE-MIT) OR [Apache-2.0](./LICENSE-APACHE)
 
