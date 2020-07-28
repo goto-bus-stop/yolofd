@@ -25,10 +25,9 @@ jobs:
         run: echo renee.kooi.me > target/doc/CNAME
       - name: Publish site
         if: success()
-        uses: crazy-max/ghaction-github-pages@v1
+        uses: dswistowski/surge-sh-action
         with:
-          target_branch: gh-pages
-          build_dir: target/doc
-          keep_history: true
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          domain: yolofd.surge.sh
+          project: target/doc
+          login: ${{secrets.SURGE_LOGIN}}
+          token: ${{secrets.SURGE_TOKEN}}

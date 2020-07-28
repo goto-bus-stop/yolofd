@@ -7,11 +7,11 @@ that I need it for :)
 ## Installation
 From git:
 ```toml
-yolofd = { git = "https://github.com/goto-bus-stop/yolofd.git" }
+yolofd = { git = "https://github.com/goto-bus-stop/yolofd.git", branch = "default" }
 ```
 
 ## Docs
-[On GitHub Pages](https://goto-bus-stop.github.io/yolofd)
+[On surge.sh](https://yolofd.surge.sh)
 
 ## License
 [MIT](./LICENSE-MIT) OR [Apache-2.0](./LICENSE-APACHE)
