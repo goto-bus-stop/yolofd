@@ -25,7 +25,7 @@ jobs:
         run: echo renee.kooi.me > target/doc/CNAME
       - name: Publish site
         if: success()
-        uses: dswistowski/surge-sh-action
+        uses: dswistowski/surge-sh-action@v1
         with:
           domain: yolofd.surge.sh
           project: target/doc
