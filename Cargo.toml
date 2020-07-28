@@ -1,0 +1,17 @@
+[package]
+name = "yolofd"
+version = "0.1.0"
+license = "MIT OR Apache-2.0"
+description = "Tiny, synchronous multipart/form-data writer"
+authors = ["Renée Kooi <renee@kooi.me>"]
+repository = "https://github.com/goto-bus-stop/yolofd"
+documentation = "https://goto-bus-stop.github.io/yolofd"
+readme = "README.md"
+edition = "2018"
+
+[dependencies]
+v_escape = "0.12.0"
+rand = { version = "0.7.3", optional = true }
+
+[features]
+default = ["rand"]
