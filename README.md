@@ -11,8 +11,7 @@ yolofd = { git = "https://github.com/goto-bus-stop/yolofd.git", branch = "defaul
 ```
 
 ## Docs
-[On surge.sh](https://yolofd.surge.sh)
+[On surge.sh](https://yolofd.surge.sh/yolofd)
 
 ## License
 [MIT](./LICENSE-MIT) OR [Apache-2.0](./LICENSE-APACHE)
-

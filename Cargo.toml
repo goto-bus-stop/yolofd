@@ -5,7 +5,7 @@ license = "MIT OR Apache-2.0"
 description = "Tiny, synchronous multipart/form-data writer"
 authors = ["Renée Kooi <renee@kooi.me>"]
 repository = "https://github.com/goto-bus-stop/yolofd"
-documentation = "https://yolofd.surge.sh"
+documentation = "https://yolofd.surge.sh/yolofd"
 readme = "README.md"
 edition = "2018"
 
