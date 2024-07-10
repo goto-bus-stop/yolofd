@@ -7,9 +7,6 @@
 use std::borrow::Cow;
 use std::io::{Cursor, Empty, Read, Result, Write};
 
-#[macro_use]
-extern crate v_escape;
-
 mod quote_string {
     v_escape::new!(QuoteString; 0x22 -> r#"\""#, 0x5C -> r#"\\"#, 0x0D -> r#"\r"#);
 }

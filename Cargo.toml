@@ -7,7 +7,7 @@ authors = ["Renée Kooi <renee@kooi.me>"]
 repository = "https://github.com/goto-bus-stop/yolofd"
 documentation = "https://yolofd.surge.sh/yolofd"
 readme = "README.md"
-edition = "2018"
+edition = "2021"
 
 [dependencies]
 v_escape = "0.18.0"
