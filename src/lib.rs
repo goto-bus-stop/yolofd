@@ -11,7 +11,7 @@ use std::io::{Cursor, Empty, Read, Result, Write};
 extern crate v_escape;
 
 mod quote_string {
-    new_escape!(QuoteString, "0x22->\\\" || 0x5C->\\\\ || 0x0D->\\\r");
+    v_escape::new!(QuoteString; 0x22 -> r#"\""#, 0x5C -> r#"\\"#, 0x0D -> r#"\r"#);
 }
 
 /// Generate a random string that can be used as a multipart boundary.

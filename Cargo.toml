@@ -10,8 +10,8 @@ readme = "README.md"
 edition = "2018"
 
 [dependencies]
-v_escape = "0.12.0"
-rand = { version = "0.7.3", optional = true }
+v_escape = "0.18.0"
+rand = { version = "0.8.5", optional = true }
 
 [features]
 default = ["rand"]
